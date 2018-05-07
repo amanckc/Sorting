@@ -31,7 +31,7 @@ public class selection {
 			// TODO Auto-generated method stub
 			
 			
-			int arr[]= {641,5,12,212,112};
+			int arr[]= {641,5,12,212,112,1,22,43,442,430,0,8,8,7};
 			
 			selection obj=new selection();
 			long start=System.nanoTime();//System.currentTimeMillis();
