@@ -3,7 +3,7 @@ package sort;
 
 public class Bubble{
 
-	public void sort(int arr[])
+	public int[] sort(int arr[])
 	{    boolean isSwapped=false;
 		for (int i=0;i<arr.length-1 ;i++ ) {
 			
@@ -20,6 +20,8 @@ public class Bubble{
 			if(isSwapped==false)
 				break;
 		}
+		
+		return arr;
 	}
 
 	public void printSortedarray(int arr[])
@@ -36,7 +38,7 @@ public class Bubble{
 		
 		
 		
-		int arr[]= {641,5,112,212,112};
+		int arr[]= {641,5,12,212,112,1,22,43,442,430,0,8,80,7};
 		
 		Bubble obj=new Bubble();
 		long start=System.nanoTime();//System.currentTimeMillis();

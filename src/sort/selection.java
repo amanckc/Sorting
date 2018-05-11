@@ -3,7 +3,7 @@ package sort;
 public class selection {
 	//time - O(n^2)
 		//space -O(n)
-		public void sort(int array[]) {
+		public int [] sort(int array[]) {
 			for(int i=0;i<array.length;i++)
 			{
 				int index_min=i;
@@ -16,7 +16,7 @@ public class selection {
 				array[index_min]=array[i];
 				array[i]=temp;
 			}
-			
+			return array;
 		}
 		
 		public void printSortedarray(int arr[])
@@ -31,11 +31,11 @@ public class selection {
 			// TODO Auto-generated method stub
 			
 			
-			int arr[]= {641,5,12,212,112,1,22,43,442,430,0,8,8,7};
+			int arr[]= {641,5,12,212,112,1,22,43,442,430,0,8,80,7};
 			
 			selection obj=new selection();
 			long start=System.nanoTime();//System.currentTimeMillis();
-			obj.sort(arr);
+			int ex[]=obj.sort(arr);
 			long end=System.nanoTime();//System.currentTimeMillis();
 			
 			obj.printSortedarray(arr);

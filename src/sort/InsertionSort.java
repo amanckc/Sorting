@@ -30,7 +30,7 @@ public class InsertionSort {
 		// TODO Auto-generated method stub
 		
 		
-		int array[]= {641,5,12,212,112,0,11,3134,11,43};
+		int array[]= {641,5,12,212,112,1,22,43,442,430,0,8,80,7};
 		
 		InsertionSort obj=new InsertionSort();
 		long start=System.nanoTime();//System.currentTimeMillis();
